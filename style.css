@@ -149,3 +149,32 @@ p{
     color: #d1d5db;
     max-width: 700px;
 }
+body{
+    background:#0f172a;
+    color:#ffffff;
+    font-family:'Poppins',sans-serif;
+}
+
+section{
+    padding:80px 10%;
+}
+
+h2{
+    font-size:38px;
+    margin-bottom:20px;
+    color:#ffffff;
+}
+
+.service-box{
+    background:#1e293b;
+    padding:25px;
+    border-radius:18px;
+    margin-top:20px;
+    transition:.3s;
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.service-box:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 40px rgba(124,58,237,.35);
+  }
