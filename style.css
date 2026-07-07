@@ -129,3 +129,23 @@ padding:20px;
     background:#7c3aed;
     color:#fff;
   }
+.tagline{
+    font-size: 22px;
+    font-weight: 700;
+    color: #7c3aed;
+    margin: 20px 0 10px;
+    letter-spacing: 1px;
+}
+
+h1{
+    font-size: 58px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.8;
+    color: #d1d5db;
+    max-width: 700px;
+}
