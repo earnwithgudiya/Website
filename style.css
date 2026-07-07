@@ -178,3 +178,59 @@ h2{
     transform:translateY(-8px);
     box-shadow:0 15px 40px rgba(124,58,237,.35);
   }
+.hero-subtitle{
+    font-size:20px;
+    color:#cbd5e1;
+    max-width:650px;
+    line-height:1.7;
+    margin:20px 0 35px;
+}/* Premium Buttons */
+button, .btn, a.btn {
+    padding: 12px 28px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    display: inline-block;
+}
+
+button:hover, .btn:hover, a.btn:hover {
+    transform: translateY(-3px);
+}
+
+/* Modern Cards */
+.card, .service-card, .project-card {
+    border-radius: 20px;
+    padding: 25px;
+    transition: 0.3s ease;
+}
+
+.card:hover, .service-card:hover, .project-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Better Section Spacing */
+section {
+    padding: 80px 20px;
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Mobile Responsive */
+@media(max-width:768px){
+    h1 {
+        font-size: 36px;
+    }
+
+    section {
+        padding: 50px 15px;
+    }
+
+    .hero-subtitle {
+        font-size: 17px;
+    }
+}
