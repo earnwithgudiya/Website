@@ -396,3 +396,97 @@ header{
     transform:translateY(-5px);
     background:#f5f5f5;
 }
+/* ===========================
+   PREMIUM DESIGN - PART 2
+=========================== */
+
+/* Sections */
+section{
+    padding:100px 8%;
+}
+
+/* Section Heading */
+h2{
+    font-size:42px;
+    font-weight:700;
+    margin-bottom:50px;
+}
+
+/* Cards */
+.service-box,
+.portfolio-box{
+    background:rgba(255,255,255,.95);
+    border-radius:22px;
+    padding:30px;
+    margin:25px 0;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    border:1px solid rgba(124,58,237,.12);
+}
+
+.service-box:hover,
+.portfolio-box:hover{
+    transform:translateY(-10px) scale(1.02);
+    box-shadow:0 25px 45px rgba(124,58,237,.25);
+}
+
+/* Skills */
+.skills span{
+    background:#7c3aed;
+    padding:12px 22px;
+    border-radius:30px;
+    font-weight:600;
+}
+
+.skills span:hover{
+    background:#5b21b6;
+    transform:scale(1.08);
+}
+
+/* Contact */
+#contact{
+    text-align:center;
+}
+
+#contact p{
+    font-size:18px;
+    margin:15px 0;
+}
+
+/* Footer */
+footer{
+    margin-top:80px;
+    padding:35px;
+    font-size:16px;
+    background:#3b0764;
+}
+
+/* Mobile */
+@media(max-width:768px){
+
+.hero h1{
+font-size:40px;
+}
+
+.hero-subtitle{
+font-size:18px;
+}
+
+.navbar{
+flex-direction:column;
+gap:15px;
+}
+
+.navbar ul{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+h2{
+font-size:32px;
+}
+
+section{
+padding:70px 20px;
+}
+
+}
