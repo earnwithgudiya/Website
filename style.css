@@ -97,3 +97,35 @@ color:white;
 text-align:center;
 padding:20px;
   }
+.hero-buttons{
+    margin-top:20px;
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 24px;
+    background:#7c3aed;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#5b21b6;
+}
+
+.btn-outline{
+    background:transparent;
+    border:2px solid #7c3aed;
+    color:#7c3aed;
+}
+
+.btn-outline:hover{
+    background:#7c3aed;
+    color:#fff;
+  }
