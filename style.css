@@ -234,3 +234,13 @@ html {
         font-size: 17px;
     }
 }
+.hero {
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    word-wrap: break-word;
+    max-width: 100%;
+  }
