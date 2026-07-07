@@ -244,3 +244,70 @@ h1 {
     word-wrap: break-word;
     max-width: 100%;
   }
+/* ===== Premium Sticky Navbar ===== */
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(106,13,173,0.95);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.navbar{
+    padding: 15px 20px;
+}
+
+.navbar a{
+    transition: .3s ease;
+    font-weight: 500;
+}
+
+.navbar a:hover{
+    color:#ffd700;
+}
+
+.logo{
+    letter-spacing:1px;
+  }
+/* ===== Premium Cards ===== */
+
+.service-box,
+.portfolio-box{
+    background:#fff;
+    border-radius:18px;
+    padding:25px;
+    transition:all .3s ease;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.service-box:hover,
+.portfolio-box:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 40px rgba(106,13,173,.20);
+}
+
+/* ===== Better Buttons ===== */
+
+.btn{
+    transition:all .3s ease;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(106,13,173,.35);
+}
+
+/* ===== Better Section Headings ===== */
+
+h2{
+    font-size:38px;
+    margin-bottom:40px;
+}
+
+/* ===== Smooth Animation ===== */
+
+html{
+    scroll-behavior:smooth;
+}
