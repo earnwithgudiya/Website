@@ -311,9 +311,6 @@ h2{
 html{
     scroll-behavior:smooth;
 }
-/* ===========================
-   PREMIUM DESIGN - PART 1
-=========================== */
 
 /* Smooth animation */
 *{
@@ -396,9 +393,6 @@ header{
     transform:translateY(-5px);
     background:#f5f5f5;
 }
-/* ===========================
-   PREMIUM DESIGN - PART 2
-=========================== */
 
 /* Sections */
 section{
@@ -562,4 +556,45 @@ h2{
 .service-box *,
 .portfolio-box *{
     opacity:1 !important;
+  }
+/* ===== Final Premium Fix ===== */
+
+body{
+    background:#0f172a;
+    color:#ffffff;
+}
+
+.hero h1{
+    color:#ffffff;
+}
+
+.hero-subtitle{
+    color:#cbd5e1;
+}
+
+h2{
+    color:#ffffff;
+}
+
+.service-box,
+.portfolio-box{
+    background:#ffffff;
+    color:#111827;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+
+.service-box h3,
+.portfolio-box h3{
+    color:#111827;
+}
+
+.service-box p,
+.portfolio-box p{
+    color:#4b5563;
+}
+
+#about p,
+#contact p{
+    color:#e5e7eb;
   }
