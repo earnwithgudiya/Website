@@ -24,7 +24,7 @@ margin:auto;
 }
 
 .logo{
-color:white;
+color: white . ;
 font-size:28px;
 font-weight:bold;
 }
@@ -54,7 +54,7 @@ margin-bottom:20px;
 
 .btn{
 display:inline-block;
-background:white;
+background:light blue  white;
 color:#6a0dad;
 padding:14px 30px;
 border-radius:30px;
@@ -75,7 +75,7 @@ color:#6a0dad;
 
 .service-box,
 .portfolio-box{
-background:white;
+background:white blue mix;
 padding:20px;
 margin:20px 0;
 border-radius:12px;
@@ -598,3 +598,14 @@ h2{
 #contact p{
     color:#e5e7eb;
   }
+.service-box p,
+.portfolio-box p{
+    color:#374151 !important;
+    opacity:1 !important;
+}
+
+.service-box p *,
+.portfolio-box p *{
+    color:#374151 !important;
+    opacity:1 !important;
+}
