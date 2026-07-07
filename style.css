@@ -530,3 +530,36 @@ body{
 h2{
     color:#ffffff !important;
   }
+/* Fix card text */
+
+.service-box p,
+.portfolio-box p{
+    color:#4b5563 !important;
+    opacity:1 !important;
+}
+
+.service-box h3,
+.portfolio-box h3{
+    color:#111827 !important;
+  }/* Final text color fix */
+
+.service-box,
+.portfolio-box{
+    color:#111827 !important;
+}
+
+.service-box h3,
+.portfolio-box h3{
+    color:#111827 !important;
+}
+
+.service-box p,
+.portfolio-box p{
+    color:#4b5563 !important;
+    opacity:1 !important;
+}
+
+.service-box *,
+.portfolio-box *{
+    opacity:1 !important;
+  }
