@@ -506,3 +506,27 @@ body{
     background:#0f172a !important;
     color:#ffffff;
 }
+/* Fix text colors */
+
+.service-box,
+.portfolio-box{
+    color:#1f2937 !important;
+}
+
+.service-box h3,
+.portfolio-box h3,
+.service-box p,
+.portfolio-box p{
+    color:#1f2937 !important;
+}
+
+#about p,
+#services p,
+#portfolio p,
+#contact p{
+    color:#e5e7eb !important;
+}
+
+h2{
+    color:#ffffff !important;
+  }
