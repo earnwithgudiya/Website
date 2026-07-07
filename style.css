@@ -490,3 +490,21 @@ padding:70px 20px;
 }
 
 }
+.hero h1,
+#about h2{
+    color:#5b21b6 !important;
+    -webkit-text-fill-color:#5b21b6 !important;
+    background:none !important;
+}
+
+.hero-subtitle{
+    color:#555 !important;
+}
+
+.hero{
+    min-height:70vh !important;
+}
+
+body{
+    background:#f8f8ff !important;
+}
