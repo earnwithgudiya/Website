@@ -679,3 +679,15 @@ max-width:700px;
 font-size:16px;
 line-height:1.7;
 }
+#faq{
+padding:90px 8%;
+}
+
+#faq .service-box{
+margin-bottom:20px;
+}
+
+#faq h3{
+color:#7c3aed;
+margin-bottom:10px;
+  }
