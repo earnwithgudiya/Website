@@ -971,3 +971,136 @@ color:#ffffff !important;
 #testimonials p{
 color:#d1d5db !important;
 }
+
+/* Premium Glass Cards */
+.service-box,
+.portfolio-box{
+background:rgba(255,255,255,.10)!important;
+backdrop-filter:blur(20px);
+-webkit-backdrop-filter:blur(20px);
+border:1px solid rgba(255,255,255,.15);
+border-radius:24px;
+padding:30px;
+box-shadow:0 15px 40px rgba(0,0,0,.25);
+transition:.45s ease;
+overflow:hidden;
+position:relative;
+}
+
+.service-box::before,
+.portfolio-box::before{
+content:"";
+position:absolute;
+top:0;
+left:-120%;
+width:60%;
+height:100%;
+background:linear-gradient(90deg,transparent,rgba(255,255,255,.18),transparent);
+transition:.8s;
+}
+
+.service-box:hover::before,
+.portfolio-box:hover::before{
+left:130%;
+}
+
+.service-box:hover,
+.portfolio-box:hover{
+transform:translateY(-12px) scale(1.02);
+box-shadow:0 25px 60px rgba(124,58,237,.35);
+}
+
+/* Premium Buttons */
+.btn{
+background:linear-gradient(90deg,#7c3aed,#a855f7);
+color:#fff!important;
+border:none;
+border-radius:999px;
+padding:15px 34px;
+font-weight:700;
+box-shadow:0 10px 30px rgba(124,58,237,.35);
+}
+
+.btn:hover{
+transform:translateY(-4px);
+box-shadow:0 18px 40px rgba(124,58,237,.45);
+}
+
+.btn-outline{
+background:transparent;
+border:2px solid #a855f7;
+}
+
+.btn-outline:hover{
+background:#a855f7;
+}
+
+/* Skills */
+.skills span{
+background:linear-gradient(90deg,#7c3aed,#9333ea);
+color:#fff;
+border-radius:999px;
+padding:12px 22px;
+font-weight:600;
+box-shadow:0 8px 20px rgba(124,58,237,.25);
+transition:.35s;
+}
+
+.skills span:hover{
+transform:translateY(-4px);
+}
+
+/* Contact Form */
+.contact-form input,
+.contact-form textarea{
+width:100%;
+padding:16px;
+margin:12px 0;
+background:rgba(255,255,255,.08);
+border:1px solid rgba(255,255,255,.15);
+border-radius:14px;
+color:#fff;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder{
+color:#cbd5e1;
+}
+
+/* Premium Footer */
+footer{
+margin-top:80px;
+padding:55px 20px;
+text-align:center;
+background:linear-gradient(135deg,#14062e,#2e1065);
+border-top:1px solid rgba(255,255,255,.08);
+}
+
+footer h3{
+font-size:30px;
+color:#fff;
+margin-bottom:15px;
+}
+
+footer p{
+color:#cbd5e1!important;
+}
+
+/* Smooth Animation */
+.service-box,
+.portfolio-box,
+.skills span,
+.btn{
+animation:fadeUp .8s ease;
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
