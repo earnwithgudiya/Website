@@ -931,58 +931,43 @@ font-size:17px;
 }
 
   }
-/* ===== Premium Headings ===== */
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap');
+/* ===== FIX HEADINGS ===== */
 
 h2{
-font-family:'Cinzel',serif;
-font-size:44px;
-font-weight:700;
+font-family:Poppins,sans-serif;
+font-size:42px;
+font-weight:800;
 text-align:center;
-margin-bottom:25px;
-letter-spacing:2px;
-color:#1e1b4b !important;
-text-shadow:0 3px 10px rgba(124,58,237,.20);
-animation:fadeUp 1s ease;
+color:#ffffff !important;
+text-shadow:none !important;
+margin-bottom:35px;
 }
 
 .service-box h3,
 .portfolio-box h3{
+color:#ffffff !important;
 font-size:24px;
 font-weight:700;
-color:#111827 !important;
-margin-bottom:12px;
 }
 
 .service-box p,
-.portfolio-box p,
-#blog p,
-#faq p,
-#testimonials p,
-#experience p{
+.portfolio-box p{
+color:#d1d5db !important;
 font-size:17px;
 line-height:1.8;
-color:#374151 !important;
-opacity:1 !important;
 }
 
-#blog h2,
-#faq h2,
-#testimonials h2,
-#experience h2,
-#services h2,
-#portfolio h2{
-color:#111827 !important;
+#blog h3,
+#faq h3,
+#experience h3,
+#testimonials h3{
+color:#ffffff !important;
 }
 
-@keyframes fadeUp{
-from{
-opacity:0;
-transform:translateY(25px);
+#blog p,
+#faq p,
+#experience p,
+#testimonials p{
+color:#d1d5db !important;
 }
-to{
-opacity:1;
-transform:translateY(0);
-}
-  }
