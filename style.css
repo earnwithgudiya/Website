@@ -1135,3 +1135,73 @@ h1{
 p, li{
     word-break: break-word;
   }
+/* ===== FINAL WEBSITE LAYOUT FIX ===== */
+
+/* Equal spacing between sections */
+section{
+    padding:70px 8% !important;
+    margin:0 !important;
+}
+
+/* Headings */
+section h2{
+    margin-bottom:14px !important;
+    line-height:1.2;
+}
+
+/* Paragraph below heading */
+section > p,
+.service-box p,
+.portfolio-box p,
+.article-card p,
+.testimonial-card p{
+    margin:0 0 16px !important;
+    line-height:1.7 !important;
+}
+
+/* Cards */
+.service-box,
+.portfolio-box,
+.service-card,
+.article-card,
+.testimonial-card{
+    margin:18px 0 !important;
+    padding:24px !important;
+}
+
+/* Remove huge gaps */
+.service-box h3,
+.portfolio-box h3,
+.article-card h3,
+.testimonial-card h3{
+    margin-bottom:8px !important;
+}
+
+.service-box p,
+.portfolio-box p,
+.article-card p,
+.testimonial-card p{
+    margin-bottom:12px !important;
+}
+
+/* Read Article style */
+.article-card .btn,
+.service-card .btn{
+    background:none !important;
+    box-shadow:none !important;
+    padding:0 !important;
+    color:#a855f7 !important;
+    text-decoration:underline !important;
+    border:none !important;
+    border-radius:0 !important;
+}
+
+.article-card .btn:hover,
+.service-card .btn:hover{
+    transform:none !important;
+}
+
+/* Footer */
+footer{
+    margin-top:40px !important;
+  }
