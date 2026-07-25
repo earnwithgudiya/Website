@@ -1506,3 +1506,29 @@ overflow:hidden;
 padding:80px 8%;
 background:linear-gradient(135deg,#0b1020,#111827);
   }
+/* Mobile Hero Fix */
+@media (max-width:900px){
+
+.hero-image{
+display:flex !important;
+justify-content:center;
+margin-top:30px;
+order:3;
+}
+
+.hero-image img{
+max-width:280px;
+width:80%;
+opacity:0.9;
+}
+
+.hero h1{
+font-size:56px;
+line-height:1.1;
+}
+
+.hero-left{
+text-align:center;
+}
+
+  }
