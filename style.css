@@ -4,10 +4,11 @@ padding:0;
 box-sizing:border-box;
 font-family:Poppins,sans-serif;
 }
-
 body{
-background:#f5f2ff;
-color:#333;
+    background:#0f172a;
+    color:#ffffff;
+    font-family:'Poppins',sans-serif;
+    overflow-x:hidden;
 }
 
 header{
@@ -24,9 +25,9 @@ margin:auto;
 }
 
 .logo{
-color: white . ;
-font-size:28px;
-font-weight:bold;
+    color:#ffffff;
+    font-size:28px;
+    font-weight:700;
 }
 
 .navbar ul{
@@ -39,12 +40,15 @@ list-style:none;
 color:white;
 text-decoration:none;
 }
-
 .hero{
-background:linear-gradient(135deg,#6a0dad,#b266ff);
-color:white;
-text-align:center;
-padding:100px 20px;
+    background:linear-gradient(135deg,#0f172a,#312e81,#7c3aed);
+    color:#fff;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:80px 20px;
+    overflow:hidden;
 }
 
 .hero h1{
@@ -53,14 +57,15 @@ margin-bottom:20px;
 }
 
 .btn{
-display:inline-block;
-background:light blue  white;
-color:#6a0dad;
-padding:14px 30px;
-border-radius:30px;
-text-decoration:none;
-font-weight:bold;
-margin-top:20px;
+    display:inline-block;
+    background:#7c3aed;
+    color:#ffffff;
+    padding:14px 30px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:700;
+    margin-top:20px;
+    transition:.3s;
 }
 
 section{
@@ -68,35 +73,40 @@ padding:70px 10%;
 }
 
 h2{
-text-align:center;
-margin-bottom:30px;
-color:#6a0dad;
-}
+    text-align:center;
+    margin-bottom:30px;
+    color:#ffffff;
+    font-size:40px;
+    font-weight:700;
+  }
 
 .service-box,
 .portfolio-box{
-background:white blue mix;
-padding:20px;
-margin:20px 0;
-border-radius:12px;
-box-shadow:0 5px 15px rgba(0,0,0,.1);
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(18px);
+    border:1px solid rgba(255,255,255,.12);
+    padding:24px;
+    margin:20px 0;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
 }
 
 .skills span{
-display:inline-block;
-background:#6a0dad;
-color:white;
-padding:10px 18px;
-margin:8px;
-border-radius:20px;
+    display:inline-block;
+    background:#7c3aed;
+    color:#fff;
+    padding:12px 20px;
+    margin:8px;
+    border-radius:30px;
+    font-weight:600;
 }
 
 footer{
-background:#6a0dad;
-color:white;
-text-align:center;
-padding:20px;
-  }
+    background:#111827;
+    color:#d1d5db;
+    text-align:center;
+    padding:40px 20px;
+}
 .hero-buttons{
     margin-top:20px;
     display:flex;
@@ -119,12 +129,12 @@ padding:20px;
     background:#5b21b6;
 }
 
+
 .btn-outline{
     background:transparent;
     border:2px solid #7c3aed;
-    color:#7c3aed;
+    color:#ffffff;
 }
-
 .btn-outline:hover{
     background:#7c3aed;
     color:#fff;
